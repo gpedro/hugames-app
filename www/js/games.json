@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "picture": "batman-one",
+    "name": "Batman: Arkham Knight",
+    "platform": "XBOX ONE",
+    "price": 12
+  },
+  {
+    "id": 2,
+    "picture": "mk-one",
+    "name": "Mortal Kombat X",
+    "platform": "XBOX ONE",
+    "price": 43
+  },
+  {
+    "id": 3,
+    "picture": "titanfall-one",
+    "name": "TitanFall",
+    "platform": "XBOX ONE",
+    "price": 55
+  },
+  {
+    "id": 4,
+    "picture": "pes-one",
+    "name": "Pro Evolution Soccer 2016",
+    "platform": "XBOX ONE",
+    "price": 63
+  },
+  {
+    "id": 5,
+    "picture": "cod-one",
+    "name": "Call of Duty: Ghosts",
+    "platform": "XBOX ONE",
+    "price": 21
+  },
+  {
+    "id": 6,
+    "picture": "fifa-ps4",
+    "name": "FIFA 15",
+    "platform": "PlayStation 4",
+    "price": 55
+  },
+  {
+    "id": 7,
+    "picture": "nfs-ps4",
+    "name": "Need for Speed: Rivals",
+    "platform": "PlayStation 4",
+    "price": 33
+  },
+  {
+    "id": 8,
+    "picture": "cod-ps4",
+    "name": "Call of Duty: Advanced Warfare",
+    "platform": "PlayStation 4",
+    "price": 85
+  },
+  {
+    "id": 9,
+    "picture": "gtav-ps4",
+    "name": "Grand Theft Auto V",
+    "platform": "PlayStation 4",
+    "price": 99
+  },
+  {
+    "id": 10,
+    "picture": "destiny-ps4",
+    "name": "Destiny",
+    "platform": "PlayStation 4",
+    "price": 23
+  }
+]

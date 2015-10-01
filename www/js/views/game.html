@@ -1,0 +1,12 @@
+<ion-view view-title="{{ vm.game.name }}">
+  <ion-content class="padding">
+    <div class="text-center">
+      <img ng-src="img/games/{{ vm.game.picture }}.jpg" alt="{{ vm.game.name }}" style="width: 100%; height: auto">
+    </div>
+    <div>
+      <h2>{{ vm.game.name }}</h2>
+      <h4>Disponível para {{ vm.game.platform }}</h4>
+      <a ng-click="vm.add()" class="button button-block button-balanced">Adicionar ao Carrinho {{ vm.game.price | currency:"R$ " }}</a>
+    </div>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view view-title="HuGames">
+  <ion-content>
+    <button class="button button-block button-positive" ng-click="vm.carrinho()">Ver Carrinho</button>
+    <div class="row" ng-repeat="game in vm.games" ng-if="$index % 2 === 0">
+      <div class="col col-50" ng-if="$index < vm.games.length">
+        <img
+        ng-src="img/games/{{vm.games[$index].picture}}.jpg"
+        style="max-width: 100%; height: auto"
+        ng-click="vm.gameView(vm.games[$index].id)">
+      </div>
+      <div class="col col-50" ng-if="$index + 1 < vm.games.length">
+        <img
+        ng-src="img/games/{{vm.games[$index + 1].picture}}.jpg"
+        style="max-width: 100%; height: auto"
+        ng-click="vm.gameView(vm.games[$index + 1].id)">
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

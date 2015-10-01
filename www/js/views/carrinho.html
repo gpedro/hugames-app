@@ -1,0 +1,20 @@
+<ion-view view-title="HuGames">
+  <ion-content>
+    <ion-list can-swip="true">
+      <ion-item ng-if="vm.carrinho.length" ng-repeat="game in vm.carrinho" >
+        {{ game.name }}
+        <span class="badge badge-assertive">{{ game.price | currency:"R$ " }}</span>
+
+        <ion-option-button class="ion-close-circled assertive" ng-click="vm.remove(game.id)">
+      </ion-item>
+
+      <ion-item ng-if="!vm.carrinho.length">
+        <p>Nenhum item no carrinho.</p>
+      </ion-item>
+
+      <div class="item item-divider">
+        Total: <strong>{{ vm.total | currency:"RS " }}</strong>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
